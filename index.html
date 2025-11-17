@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Weather Card</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="weather-card" role="region" aria-label="Weather information card">
+  <div class="search-box">
+    <input type="search" placeholder="Qidirish" aria-label="Search city" />
+    <span class="material-icons search-icon" aria-hidden="true">search</span>
+  </div>
+  <div class="heading-text" aria-live="polite">
+    Shaxringizni ingliz tilda kiriting.
+  </div>
+  <div class="date-text">
+    Seshanba / 10 Yanvar / 2021
+  </div>
+
+  <div class="temperature-icon" aria-label="Current temperature">
+    0<span class="degree-symbol">°C</span>
+  </div>
+
+  <div class="weather-info">
+    <span class="material-icons weather-icon" aria-hidden="true" title="Cloudy weather">cloud_queue</span>
+    <div class="weather-desc">Wehather</div>
+    <div class="min-max-temp" aria-label="Minimum and maximum temperature">
+      Min°c / Max°c
+    </div>
+  </div>
+
+  <div class="footer-text">
+    arish
+    <span class="material-icons footer-icon" aria-hidden="true" title="GitHub icon">github</span>
+  </div>
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>
