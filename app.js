@@ -33,6 +33,7 @@ searchBtn.addEventListener('click', () => {
                     headingText.style.color = "red";
                     return;
                 }
+                
 
                 headingText.style.color = "#eee";
                 headingText.textContent = data.name;
